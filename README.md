@@ -67,11 +67,13 @@ Ecco come dovrebbero apparire le tue variabili nelle Settings di HuggingFace:
 | Nome Variabile | Valore | Descrizione |
 |---|---|---|
 | `API_PASSWORD` | `MiaPasswordSicura123!` | Password per accedere al proxy |
-| `TRANSPORT_ROUTES` | `{"all://*.ichigotv.net": {"verify_ssl": false}, "all://ichigotv.net": {"verify_ssl": false}}` | Solo per addon MammaMia |
-| `ENABLE_STREAMING_PROGRESS` | `false/true` | Abilita il logging del progresso streaming. Default è `false` |
-| `DISABLE_HOME_PAGE` | `false/true` | Disabilita l'interfaccia della home page. Restituisce 404 per il percorso root e accesso diretto a index.html. Default è `false` |
-| `DISABLE_DOCS` | `false/true` | Disabilita la documentazione API (Swagger UI). Restituisce 404 per il percorso /docs. Default è `false` |
-| `DISABLE_SPEEDTEST` | `false/true` | Disabilita l'interfaccia speedtest. Restituisce 404 per il percorso /speedtest e accesso diretto a speedtest.html. Default è `false` |
+| `TRANSPORT_ROUTES` | Opzionale `{"all://*.ichigotv.net": {"verify_ssl": false}, "all://ichigotv.net": {"verify_ssl": false}}` | Solo per addon MammaMia |
+| `ENABLE_STREAMING_PROGRESS` | Opzionale `false`/`true` | Abilita il logging del progresso streaming. Default è `false` |
+| `DISABLE_HOME_PAGE` | Opzionale `false`/`true` | Disabilita l'interfaccia della home page. Restituisce 404 per il percorso root e accesso diretto a index.html. Default è `false` |
+| `DISABLE_DOCS` | Opzionale `false`/`true` | Disabilita la documentazione API (Swagger UI). Restituisce 404 per il percorso /docs. Default è `false` |
+| `DISABLE_SPEEDTEST` | Opzionale `false`/`true` | Disabilita l'interfaccia speedtest. Restituisce 404 per il percorso /speedtest e accesso diretto a speedtest.html. Default è `false` |
+| `STREMIO_PROXY_URL` | Opzionale Esempio: `http://127.0.0.1:11470` | URL del server Stremio per il proxying alternativo dei contenuti. |
+| `M3U8_CONTENT_ROUTING` | Opzionale `mediaflow`/`stremio`/`direct` | Strategia di routing per gli URL dei contenuti M3U8: `mediaflow` (default), `stremio`, o `direct` |
 
 ### 🔒 Note di Sicurezza
 
