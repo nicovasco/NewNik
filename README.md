@@ -25,10 +25,3 @@ Questo progetto fornisce un Dockerfile ottimizzato per deployare MediaFlow Proxy
 3. (OPZIONALE) Modifica il link per mediaflow-proxy se ne vuoi usare uno custom
 4. Il deployment avverrà automaticamente
 
-### Opzione 2: Docker Locale
-```bash
-# Build dell'immagine
-docker build -t mediaflow-proxy-hf .
-
-# Run del container
-docker run -p 7860:7860 mediaflow-proxy-hf
