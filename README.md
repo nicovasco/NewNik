@@ -50,7 +50,7 @@ Questo progetto fornisce un Dockerfile ottimizzato per deployare MediaFlow Proxy
 #### Variabile Obbligatoria:
 
 ```
-API_PASSWORD = Yourpassword
+API_PASSWORD
 ```
 
 *⚠️ Sostituisci "YourPassword" con una password sicura di tua scelta*
@@ -59,17 +59,15 @@ API_PASSWORD = Yourpassword
 Se utilizzi l'addon MammaMia, aggiungi anche:
 
 ```
-TRANSPORT_ROUTES = 
-
-{
-    "all://*.ichigotv.net": {
-        "verify_ssl": false
-    },
-    "all://ichigotv.net": {
-        "verify_ssl": false
-    }
-}
+TRANSPORT_ROUTES
 ```
+
+Ecco come dovrebbero apparire le tue variabili nelle Settings di HuggingFace:
+
+| Nome Variabile | Valore | Descrizione |
+|---|---|---|
+| `API_PASSWORD` | `MiaPasswordSicura123!` | Password per accedere al proxy |
+| `TRANSPORT_ROUTES` | `{"all://*.ichigotv.net": {"verify_ssl": false}, "all://ichigotv.net": {"verify_ssl": false}}` | Solo per addon MammaMia |
 
 ### 🔒 Note di Sicurezza
 
@@ -85,15 +83,6 @@ Dopo aver impostato le variabili:
 2. Controlla i **"Logs"** per verificare che non ci siano errori
 3. Testa la connessione al proxy con la password impostata
 4. Se ci sono problemi, controlla che le variabili siano state salvate correttamente
-
-### 🎯 Esempio di Configurazione Completa
-
-Ecco come dovrebbero apparire le tue variabili nelle Settings di HuggingFace:
-
-| Nome Variabile | Valore | Descrizione |
-|---|---|---|
-| `API_PASSWORD` | `MiaPasswordSicura123!` | Password per accedere al proxy |
-| `TRANSPORT_ROUTES` | `{"all://*.ichigotv.net": {"verify_ssl": false}, "all://ichigotv.net": {"verify_ssl": false}}` | Solo per addon MammaMia |
 
 ---
 
