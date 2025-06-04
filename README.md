@@ -25,3 +25,19 @@ Questo progetto fornisce un Dockerfile ottimizzato per deployare MediaFlow Proxy
 3. (OPZIONALE) Modifica il link per mediaflow-proxy se ne vuoi usare uno custom
 4. Il deployment avverrà automaticamente
 
+## Env Vars
+```
+API_PASSWORD = Yourpassword
+```
+### Mamma Mia
+Se utilizzi l' addon MammaMia imposta anche queste Variabili
+```
+TRANSPORT_ROUTES = {
+    "all://*.ichigotv.net": {
+        "verify_ssl": false
+    },
+    "all://ichigotv.net": {
+        "verify_ssl": false
+    }
+}
+```
