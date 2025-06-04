@@ -59,7 +59,9 @@ API_PASSWORD = Yourpassword
 Se utilizzi l'addon MammaMia, aggiungi anche:
 
 ```
-TRANSPORT_ROUTES = {
+TRANSPORT_ROUTES = 
+
+{
     "all://*.ichigotv.net": {
         "verify_ssl": false
     },
