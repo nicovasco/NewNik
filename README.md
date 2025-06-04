@@ -97,28 +97,6 @@ Ecco come dovrebbero apparire le tue variabili nelle Settings di HuggingFace:
 
 ---
 
-## 🚀 Utilizzo
-
-Una volta deployato il tuo Space:
-
-1. **Accedi al proxy** usando l'URL del tuo Space HuggingFace
-2. **Inserisci la password** che hai configurato in `API_PASSWORD`
-3. **Configura i tuoi client** per utilizzare il proxy
-
-## 🔧 Troubleshooting
-
-### Problemi Comuni:
-
-- **Space non si avvia**: Controlla i logs per errori di configurazione
-- **Password non accettata**: Verifica che `API_PASSWORD` sia impostata correttamente
-- **Errori SSL con MammaMia**: Assicurati che `TRANSPORT_ROUTES` sia configurato
-
-### Log Utili:
-- Vai nella tab **"Logs"** del tuo Space per vedere eventuali errori
-- I log mostrano l'avvio del server e eventuali problemi di configurazione
-
----
-
 💡 **Suggerimento**: Le variabili d'ambiente vengono applicate automaticamente al riavvio del container. Non è necessario ricompilare l'immagine Docker.
 
 📚 **Documentazione**: Per maggiori informazioni, consulta i repository originali linkati nella sezione Descrizione.
