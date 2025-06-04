@@ -22,7 +22,8 @@ Questo progetto fornisce un Dockerfile ottimizzato per deployare MediaFlow Proxy
 ### Opzione 1: HuggingFace Spaces
 1. Crea un nuovo Space su HuggingFace
 2. Carica questo Dockerfile
-3. Il deployment avverrà automaticamente
+3. (OPZIONALE) Modifica il link per mediaflow-proxy se ne vuoi usare uno custom
+4. Il deployment avverrà automaticamente
 
 ### Opzione 2: Docker Locale
 ```bash
