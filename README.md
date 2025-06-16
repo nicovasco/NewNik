@@ -62,7 +62,7 @@ Se utilizzi l'addon MammaMia, aggiungi anche:
 TRANSPORT_ROUTES
 ```
 
-Ecco come dovrebbero apparire le tue variabili nelle Settings di HuggingFace:
+Ecco come dovrebbero apparire le tue variabili nelle Settings SECRET di HuggingFace:
 
 | Nome Variabile | Valore | Descrizione |
 |---|---|---|
