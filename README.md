@@ -41,7 +41,7 @@ Questo progetto fornisce un Dockerfile ottimizzato per deployare MediaFlow Proxy
    - Scorri verso il basso fino alla sezione **"Variables and secrets"**
 
 3. **Aggiungi le Variabili**
-   - Clicca su **"New variable"** per aggiungere ogni variabile
+   - Clicca su **"New secret"** per aggiungere ogni variabile
    - Inserisci nome e valore come specificato sotto
    - Clicca **"Save"** per ogni variabile
 
