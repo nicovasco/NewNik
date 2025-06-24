@@ -17,4 +17,4 @@ starlette
 cachetools
 tqdm
 aiofiles
-install httpx[socks]
+httpx[socks]
