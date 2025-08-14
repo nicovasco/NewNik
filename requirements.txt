@@ -18,4 +18,3 @@ cachetools
 tqdm
 aiofiles
 httpx[socks]
-requests
