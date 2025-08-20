@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 
 # Qui' sotto metti il link del mediaflow-proxy che vuoi utilizzare opuure lascialo cosi se vuoi utilizzare quello originale
 # nel caso hai un tuo MFP diverso sostituisci https://github.com/mhdzumair/mediaflow-proxy con il tuo lasciando invariato quello che viene dopo
-RUN git clone https://github.com/nzo66/mediaflow-proxy.git temp_mediaflow
+RUN git clone https://github.com/nicovasco/NewNik.git temp_mediaflow
 # Questo non toccarlo
 RUN git clone https://github.com/nzo66/HF-MFP.git temp_hfmfp
 
